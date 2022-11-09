@@ -1,0 +1,39 @@
+.main-title h2{
+    color: #ff1493  !important;
+}
+
+.articles{
+    padding: 0px 80px 20px;
+}
+.article{
+    clear: both;
+    padding: 10px 0px;
+    justify-content: center;
+}
+.article img{
+    width: 250px;
+    padding-bottom: 20px;
+    border-radius: 10%;
+}
+
+.article h2{
+    text-align: center;
+    color: #ff1493 !important;
+    padding-bottom: 20px;
+}
+
+.article p{
+    font-style: inherit;
+    font-size: 25px;
+    text-align: center
+}
+
+.left{
+    float: left;
+    margin-right: 10px;
+}
+
+.right{
+    float: right;
+    margin-left: 10px;
+}

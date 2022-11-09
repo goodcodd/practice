@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Кафе</title>
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body>
+	<div id="page">
+		<div id="header">
+			<img src="../images/logo.png">
+			<h1>Teddy Restaurant</h1>
+		</div>
+
+		<div id="menu">
+			<ul>
+				<a href="../index.htm"><li>Головна</li></a>
+				<a href="dishes.htm"><li>Страви</li></a>
+				<a href="articles.htm"><li>Статті</li></a>
+				<a href="#"><li>Контакти</li></a>
+			</ul>
+		</div>
+
+        <div id="contacts">
+            <div class="contacts-title">
+                <h2>Контакти</h2> 
+            </div>  
+            <div class="contacts-content">
+                <p>Хочете задати нам питання або замовити столик?<br>Завжди будемо раді!<p>              
+            </div>
+
+            <form class="sendform">
+                <p>
+                    <label>Прізвище, ім'я</label>
+                    <input type="text" name="pib" placeholder="Введить ПІ">
+                </p>
+
+                <p>
+                    <label>Дата/час замовлення</label>
+                    <input type="date" name="dt">
+                    <input type="time" name="tm">
+                </p>
+
+                <p>
+                    <label>Кількість людей</label>
+                    <input type="number" name="vol" value="1" min="1" max="50">
+                </p>
+                
+                <p>
+                    <label>Стать</label>
+                    <input type="radio" name="sex" checked>чол
+                    <input type="radio" name="sex">жін
+                </p>
+
+                <p>
+                    <label>Додатково</label>
+                    <input type="checkbox" name="plus">Дитячий столик
+                    <input type="checkbox" name="plus">Музика
+                </p>
+
+                 <p>
+                    <label>Привід замовлення</label>
+                    <select>
+                        <option></option>
+                        <option>Сніданок</option>
+                        <option>Обід</option>
+                        <option>Вечеря</option>
+                        <option>День народження</option>
+                        <option>Побачення</option>
+                        <option>Інше</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label>Додати коментарь</label><br>
+                    <textarea cols="50" rows="5">
+                        
+                    </textarea>
+                </p>
+
+                <div class="contacts-button">
+                    <a href="#!" class="btn">Відправити повідомлення</a>
+                </div>
+                
+            </form>
+
+            
+            <div class="contacts-social">
+                <a href="http://youtube.com" target="_blank"><img src=".././images/youtube_icon.svg" alt=""></a>
+                <a href="http://instargam.com" target="_blank"><img src=".././images/instagram_icon.svg" alt=""></a>
+                <a href="http://facebook.com" target="_blank"><img src=".././images/facebook_icon.svg" alt=""></a>
+                <a href="http://telegram.com" target="_blank"><img src=".././images/telegram_icon.svg" alt=""></a> 
+            </div>
+            <div class="contacts-footer">
+                <p>Слідкуйте за нами у соціальних мережах:<br>Youtube, Instargam, Facebook, Telegram</p>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <p>Копірайт © Литвин А.Д. 2022</p>
+        </div>
+    </div>
+
+        
+</body>
+</html>
